@@ -52,6 +52,75 @@
    
     }
 
+
+
+/*--------------------------------------------------------------
+4.0 - ELEMENTS
+-------------------------------------------------------------- */
+/* -- FORMS -- */ 
+
+
+
+/* -- LISTS -- */ 
+
+footer li{
+    list-style: none;
+}
+footer ul{
+    padding: 0;
+}
+footer a, footer{
+    color: #909aad;
+    font-size: 12px;
+}
+
+
+/* -- MEDIA -- */ 
+
+#bg-header{
+    background-image: url("../img/bg-header.jpg");
+    padding-top: 300px;
+    padding-bottom: 70px;
+    background-position: center;
+    
+}
+
+/* -- TABLES -- */ 
+
+caption{
+    display: none;
+}
+
+/* -- TYPOGRPAHY -- */ 
+h1, h2, h3, h4{
+   text-transform: uppercase; 
+}
+h1{
+    font-size: 20px;
+    float: left;
+    width: 200px;
+}
+h4{
+    color: #fff;
+}
+header p{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+header p:first-of-type{
+    font-size: 30px;
+}
+
+header p:last-of-type{
+    font-weight:300;
+    font-size: 15px;
+}
+
+
 /*--------------------------------------------------------------
 5.0 - OBJECTS
 -------------------------------------------------------------- */
@@ -68,5 +137,110 @@
     overflow: auto;
 }
 
+.benefits{
+    width: 370px;
+    float: left;
+}
+.sub-benefits{
+    float: left;
+    width: 85px;
+}
+
+.sub-benefits:last-child{
+    width: 270px;
+    float: right;
+}
+
+.list-features{
+    width: 220px;
+    float: left;
+}
+
+.list-features:last-child{
+    float: right;
+}
+
+.hot-features{
+    width: 470px;
+    float: left;
+}
+
+.hot-features:last-child{
+    float: right;
+}
+
+footer section{
+    float: left;
+    width: 225px;
+    margin-left: 50px;
+   
+}
+
+footer section:last-child{
+    float: right;
+}
 
 
+#bg-yellow{
+    background-color: #fffbde;
+    padding: 40px 0;
+}
+
+#bg-blue{
+    background-color: #e7f4f8;
+    padding: 40px 0;
+}
+
+footer{
+    background-color: #4c515b;
+    padding: 40px 0;
+}
+/*--------------------------------------------------------------
+6.0 - COMPONENTS
+-------------------------------------------------------------- */
+
+/* -- NAVIGATION -- */ 
+
+
+
+nav li{
+    display: inline-block;
+    
+}
+footer nav li{
+     display: block;
+}
+
+a{
+    text-decoration: none;
+
+}
+#menu-bar a{
+        padding: 2px;
+        background-color: #ff8261;
+        color: #fff;
+        margin-left: 20px;
+}
+
+#menu-bar a:hover{
+    padding: 10px;
+    color: #fff;
+    background-color: #52cbf8;
+}
+
+#menu-bar{
+    text-transform: uppercase;
+    background-color: #ff8261;
+    padding: 12px;
+
+}
+
+
+.foot-quick-links{
+    float: left;
+    width: 110px;
+}
+
+.foot-quick-links:last-child{
+    float: right;
+}
