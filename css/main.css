@@ -37,9 +37,36 @@
 
 --------------------------------------------------------------*/
 
+
 /*--------------------------------------------------------------
-4.0 - ELEMENTS 
+3.0 - GENERIC
 -------------------------------------------------------------- */
 
-/* -- FORMS -- */ 
+*{
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+    }
+
+/*--------------------------------------------------------------
+5.0 - OBJECTS
+-------------------------------------------------------------- */
+
+/* -- FRAMEWORK -- */ 
+
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    overflow: auto;
+}
+
+
 
